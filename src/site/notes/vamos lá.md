@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/vamos lá/","tags":["gardenEntry"],"dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/vamos lá/","dgPassFrontmatter":true}
 ---
 
-cniwubcwuio [[]]
+cniwubcwuio 
