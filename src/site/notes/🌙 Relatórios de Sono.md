@@ -11,6 +11,6 @@ Dados coletados do aplicativo Sleep2.
 
 ---
 
-[[💤 Relatório - 2025-06-13\|💤 Relatório - 2025-06-13]]  
+[[💤 Após sessão 1\|💤 Após sessão 1]]  
 [[💤 Relatório - 2025-06-14\|💤 Relatório - 2025-06-14]]  
 [[💤 Relatório - 2025-06-15\|💤 Relatório - 2025-06-15]]
