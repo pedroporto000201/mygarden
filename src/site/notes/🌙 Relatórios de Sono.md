@@ -4,7 +4,7 @@
 
 # 🌙 Relatórios de Sono
 
-🛌 Abaixo estão os relatórios organizados por dia:
+🛌 Abaixo estão os relatórios após as sessões:
 
 - [[💤 Após sessão 1\|💤 Após sessão 1]]
 - [[💤 Relatório - 2025-06-14\|💤 Relatório - 2025-06-14]]
