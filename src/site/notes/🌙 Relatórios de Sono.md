@@ -7,5 +7,5 @@
 🛌 Abaixo estão os relatórios após as sessões:
 
 - [[💤 Após sessão 1\|💤 Após sessão 1]]
-- [[💤 Relatório - 2025-06-14\|💤 Relatório - 2025-06-14]]
-- [[💤 Relatório - 2025-06-15\|💤 Relatório - 2025-06-15]]
+- [[13-06-2025\|13-06-2025]]
+- [[14-06-2025\|14-06-2025]]
