@@ -37,14 +37,14 @@
 
 .sleep-data {
   display: grid;
-  row-gap: 10px;
-  margin-bottom: 18px;
+  row-gap: 12px;
+  margin-bottom: 20px;
 }
 
 .sleep-row {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
 }
 
 .sleep-label {
@@ -52,12 +52,16 @@
   color: #ccc;
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
+  min-width: 200px;
 }
 
 .sleep-value {
   font-weight: 600;
   color: #f8f8f8;
+  text-align: right;
+  margin-left: auto;
+  min-width: 80px;
 }
 
 .sleep-value.green {
@@ -84,6 +88,7 @@
 .tag:hover {
   background-color: #444465;
 }
+
 </style>
 
 
