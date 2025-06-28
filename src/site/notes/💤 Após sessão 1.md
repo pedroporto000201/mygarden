@@ -2,194 +2,69 @@
 {"dg-publish":true,"title":"💤 Relatório de Sono - 14/06/2025","tags":["sono"],"permalink":"/💤 Após sessão 1/","dgPassFrontmatter":true}
 ---
 
+---
+tags: [sono, relatório, cards]
+---
+
 <style>
-.sleep-card {
-  background-color: #1e1e2f;
-  border-radius: 16px;
-  padding: 20px 24px;
-  color: #ffffff;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-  margin-bottom: 24px;
-  max-width: 460px;
-  font-family: 'Inter', 'Segoe UI', sans-serif;
-  font-size: 0.95rem;
-  line-height: 1.6;
-}
-
-.sleep-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-weight: 600;
-  font-size: 1rem;
-  margin-bottom: 18px;
-  color: #f0f0f0;
-}
-
-.session-badge {
-  background-color: #3c3c50;
-  color: #bbb;
-  padding: 4px 10px;
-  border-radius: 999px;
-  font-size: 0.75rem;
-  font-weight: 500;
-}
-
-.sleep-data {
-  display: grid;
-  grid-template-columns: 1fr;
-  row-gap: 10px;
-  margin-bottom: 18px;
-}
-
-.sleep-data .label {
-  font-weight: 500;
-  color: #aaa;
-  display: inline-block;
-  min-width: 120px;
-}
-
-.sleep-data .value {
-  font-weight: 600;
-  color: #f8f8f8;
-}
-
-.sleep-data .green {
-  color: #4cd964;
-}
-
-.fatores {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.tag {
-  display: inline-block;
-  background-color: #2e2e42;
-  color: #ccc;
-  padding: 6px 12px;
-  border-radius: 999px;
-  font-size: 0.75rem;
-  font-weight: 500;
-  transition: background 0.3s;
-}
-
-.tag:hover {
-  background-color: #444465;
-}
-.sleep-card {
-  background-color: #1e1e2f;
-  border-radius: 16px;
-  padding: 20px 24px;
-  color: #ffffff;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-  margin-bottom: 24px;
-  max-width: 460px;
-  font-family: 'Inter', 'Segoe UI', sans-serif;
-  font-size: 0.95rem;
-  line-height: 1.6;
-}
-
-.sleep-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-weight: 600;
-  font-size: 1rem;
-  margin-bottom: 18px;
-  color: #f0f0f0;
-}
-
-.session-badge {
-  background-color: #3c3c50;
-  color: #bbb;
-  padding: 4px 10px;
-  border-radius: 999px;
-  font-size: 0.75rem;
-  font-weight: 500;
-}
-
-.sleep-data {
-  display: grid;
-  row-gap: 10px;
-  margin-bottom: 20px;
-}
-
-.sleep-row {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  align-items: center;
-  column-gap: 24px;
-}
-
-.sleep-label {
-  font-weight: 500;
-  color: #b0b0b0;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.sleep-value {
-  font-weight: 600;
-  color: #ffffff;
-  text-align: right;
-  white-space: nowrap;
-}
-
-.sleep-value.green {
-  color: #4cd964;
-}
-
-.fatores {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.tag {
-  display: inline-block;
-  background-color: #2e2e42;
-  color: #ccc;
-  padding: 6px 12px;
-  border-radius: 999px;
-  font-size: 0.75rem;
-  font-weight: 500;
-  transition: background 0.3s;
-}
-
-.tag:hover {
-  background-color: #444465;
-}
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+  }
+  .card {
+    background-color: #1e1e2f;
+    border-radius: 14px;
+    padding: 18px 24px;
+    color: #eee;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.6);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 0.15s ease-in-out;
+  }
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.85);
+  }
+  .card-header {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #7cd1c9;
+    margin-bottom: 10px;
+  }
+  .metric {
+    display: flex;
+    justify-content: space-between;
+    margin: 6px 0;
+  }
+  .metric-label {
+    color: #bbb;
+    font-weight: 600;
+  }
+  .metric-value {
+    color: #fff;
+    font-weight: 700;
+  }
+  .metric-value.time {
+    color: #ffa726;
+  }
 </style>
 
+<div class="cards-container">
 
+  <div class="card">
+    <div class="card-header">🌙 Relatório Sono - 27/06</div>
+    <div class="metric"><div class="metric-label">Duração</div><div class="metric-value time">7h 45m</div></div>
+    <div class="metric"><div class="metric-label">Eficiência</div><div class="metric-value">89%</div></div>
+    <div class="metric"><div class="metric-label">Despertares</div><div class="metric-value">2 vezes</div></div>
+    <div class="metric"><div class="metric-label">Sono Profundo</div><div class="metric-value time">1h 20m</div></div>
+    <div class="metric"><div class="metric-label">Latência</div><div class="metric-value time">12 min</div></div>
+  </div>
 
-
-
-
-<div class="sleep-card">
-
-<div class="sleep-header">
-📅 <strong>13/06/2025</strong>
-<span class="session-badge">1ª sessão</span>
-</div>
-
-<div class="sleep-data">
-🕒 <span class="label">Duração:</span> <span class="value">7h 57min</span><br>
-📈 <span class="label">Eficiência:</span> <span class="value green">90.8%</span><br>
-🍌 <span class="label">Sono Profundo:</span> <span class="value">1h 58min</span><br>
-🧠 <span class="label">Sono REM:</span> <span class="value">1h 54min</span><br>
-❤️ <span class="label">FC Média:</span> <span class="value">61 bpm</span><br>
-📉 <span class="label">Variabilidade FC:</span> <span class="value">96 ms</span><br>
-</div>
-
-<div class="fatores">
-<span class="tag">Business trip</span>
-<span class="tag">Caffeine (5h before bed)</span>
-<span class="tag">Increased Stress</span>
-</div>
-
-</div>
-
+  <div class="card">
+    <div class="card-header">🌙 Relatório Sono - 28/06</div>
+    <div class="metric"><div class="metric-label">Duração</div><div class="metric-value time">8h 10m</div></div>
+    <div class="metric"><div class="metric-label">Eficiência</div><div class="metric-value">92%</div></div>
+    <div class="metric"><div class="metric-label">Despertares</div><div class="metric-value">1 vez</div></div>
+    <div class="metric"><div class="metric-label">Sono Profundo</div><div class="metric-value time">1h 40m</div></div>
+    <div class="metric"><div class="metri
