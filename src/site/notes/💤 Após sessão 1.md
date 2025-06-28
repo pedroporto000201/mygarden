@@ -37,30 +37,24 @@
 
 .sleep-data {
   display: grid;
+  grid-template-columns: 1fr;
   row-gap: 10px;
   margin-bottom: 18px;
 }
 
-.sleep-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.sleep-label {
+.sleep-data .label {
   font-weight: 500;
-  color: #ccc;
-  display: flex;
-  align-items: center;
-  gap: 6px;
+  color: #aaa;
+  display: inline-block;
+  min-width: 120px;
 }
 
-.sleep-value {
+.sleep-data .value {
   font-weight: 600;
   color: #f8f8f8;
 }
 
-.sleep-value.green {
+.sleep-data .green {
   color: #4cd964;
 }
 
