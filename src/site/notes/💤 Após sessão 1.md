@@ -87,17 +87,20 @@
 
 .sleep-row {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  gap: 16px; /* controla o espaço entre métrica e valor */
+  justify-content: flex-start;
+  gap: 32px; /* controla o espaço entre métrica e valor */
 }
+
 .sleep-label {
   font-weight: 500;
   color: #ccc;
   display: flex;
   align-items: center;
   gap: 6px;
+  min-width: 160px; /* largura fixa para alinhar os valores */
 }
+
 .sleep-value {
   font-weight: 600;
   color: #f8f8f8;
