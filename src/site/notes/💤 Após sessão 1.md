@@ -5,51 +5,78 @@
 <style>
 .sleep-card {
   background-color: #1e1e2f;
-  border-radius: 12px;
-  padding: 16px;
-  color: #fff;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
-  margin-bottom: 16px;
-  max-width: 400px;
+  border-radius: 16px;
+  padding: 20px 24px;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  margin-bottom: 24px;
+  max-width: 460px;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
+
 .sleep-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-weight: bold;
-  font-size: 1.1rem;
-  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 18px;
+  color: #f0f0f0;
 }
+
 .session-badge {
-  background-color: #444;
-  color: #ccc;
-  padding: 4px 8px;
-  border-radius: 8px;
+  background-color: #3c3c50;
+  color: #bbb;
+  padding: 4px 10px;
+  border-radius: 999px;
   font-size: 0.75rem;
+  font-weight: 500;
 }
+
+.sleep-data {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 10px;
+  margin-bottom: 18px;
+}
+
 .sleep-data .label {
   font-weight: 500;
   color: #aaa;
+  display: inline-block;
+  min-width: 120px;
 }
+
 .sleep-data .value {
-  font-weight: bold;
-  color: #fff;
+  font-weight: 600;
+  color: #f8f8f8;
 }
+
 .sleep-data .green {
   color: #4cd964;
 }
+
 .fatores {
-  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
+
 .tag {
   display: inline-block;
   background-color: #2e2e42;
   color: #ccc;
-  padding: 4px 10px;
-  border-radius: 12px;
+  padding: 6px 12px;
+  border-radius: 999px;
   font-size: 0.75rem;
-  margin-right: 6px;
-  margin-top: 4px;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.tag:hover {
+  background-color: #444465;
 }
 </style>
 
