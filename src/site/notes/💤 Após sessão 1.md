@@ -27,67 +27,7 @@
 }
 
 .session-badge {
-  background-color: #3c3c50;
-  color: #bbb;
-  padding: 4px 10px;
-  border-radius: 999px;
-  font-size: 0.75rem;
-  font-weight: 500;
-}
-
-.sleep-data {
-  display: grid;
-  row-gap: 12px;
-  margin-bottom: 20px;
-}
-
-.sleep-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-}
-
-.sleep-label {
-  font-weight: 500;
-  color: #ccc;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  min-width: 200px;
-}
-
-.sleep-value {
-  font-weight: 600;
-  color: #f8f8f8;
-  text-align: right;
-  margin-left: auto;
-  min-width: 80px;
-}
-
-.sleep-value.green {
-  color: #4cd964;
-}
-
-.fatores {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.tag {
-  display: inline-block;
-  background-color: #2e2e42;
-  color: #ccc;
-  padding: 6px 12px;
-  border-radius: 999px;
-  font-size: 0.75rem;
-  font-weight: 500;
-  transition: background 0.3s;
-}
-
-.tag:hover {
-  background-color: #444465;
-}
+  backgroun
 
 </style>
 
