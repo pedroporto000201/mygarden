@@ -37,24 +37,30 @@
 
 .sleep-data {
   display: grid;
-  grid-template-columns: 1fr;
   row-gap: 10px;
   margin-bottom: 18px;
 }
 
-.sleep-data .label {
-  font-weight: 500;
-  color: #aaa;
-  display: inline-block;
-  min-width: 120px;
+.sleep-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.sleep-data .value {
+.sleep-label {
+  font-weight: 500;
+  color: #ccc;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.sleep-value {
   font-weight: 600;
   color: #f8f8f8;
 }
 
-.sleep-data .green {
+.sleep-value.green {
   color: #4cd964;
 }
 
@@ -93,12 +99,37 @@
 </div>
 
 <div class="sleep-data">
-🕒 <span class="label">Duração:</span> <span class="value">7h 57min</span><br>
-📈 <span class="label">Eficiência:</span> <span class="value green">90.8%</span><br>
-🍌 <span class="label">Sono Profundo:</span> <span class="value">1h 58min</span><br>
-🧠 <span class="label">Sono REM:</span> <span class="value">1h 54min</span><br>
-❤️ <span class="label">FC Média:</span> <span class="value">61 bpm</span><br>
-📉 <span class="label">Variabilidade FC:</span> <span class="value">96 ms</span><br>
+
+<div class="sleep-row">
+  <div class="sleep-label">🕒 Duração:</div>
+  <div class="sleep-value">7h 57min</div>
+</div>
+
+<div class="sleep-row">
+  <div class="sleep-label">📈 Eficiência:</div>
+  <div class="sleep-value green">90.8%</div>
+</div>
+
+<div class="sleep-row">
+  <div class="sleep-label">🍌 Sono Profundo:</div>
+  <div class="sleep-value">1h 58min</div>
+</div>
+
+<div class="sleep-row">
+  <div class="sleep-label">🧠 Sono REM:</div>
+  <div class="sleep-value">1h 54min</div>
+</div>
+
+<div class="sleep-row">
+  <div class="sleep-label">❤️ FC Média:</div>
+  <div class="sleep-value">61 bpm</div>
+</div>
+
+<div class="sleep-row">
+  <div class="sleep-label">📉 Variabilidade FC:</div>
+  <div class="sleep-value">96 ms</div>
+</div>
+
 </div>
 
 <div class="fatores">
