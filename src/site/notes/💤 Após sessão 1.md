@@ -3,32 +3,7 @@
 ---
 
 <style>
-.sleep-card {
-  background-color: #1e1e2f;
-  border-radius: 16px;
-  padding: 20px 24px;
-  color: #ffffff;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-  margin-bottom: 24px;
-  max-width: 460px;
-  font-family: 'Inter', 'Segoe UI', sans-serif;
-  font-size: 0.95rem;
-  line-height: 1.6;
-}
-
-.sleep-header {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  font-weight: 600;
-  font-size: 1rem;
-  margin-bottom: 18px;
-  color: #f0f0f0;
-}
-
-.session-badge {
-  backgroun
-
 </style>
 
 
